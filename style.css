@@ -193,3 +193,29 @@ flex-direction:column;
 }
 
 }
+.top-bar{
+    background:#1e3a5f;
+    padding:15px 0;
+}
+
+.logo-container{
+    display:flex;
+    flex-direction:column; /* logo di atas teks */
+    align-items:center;
+    justify-content:center;
+}
+
+.logo-container img{
+    width: 150px;px;      /* besarkan sedikit */
+    height: 150px;px;
+    border-radius:50%; /* jadikan bulat */
+    object-fit:cover;
+    margin-bottom:8px;
+}
+
+.logo-container h2{
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+    margin:0;
+}
